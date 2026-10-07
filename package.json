@@ -9,7 +9,7 @@
     "test": "tsx evals/runEvals.ts",
     "evals": "tsx evals/runEvals.ts",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out -b gh-pages"
+    "deploy": "gh-pages -d out -b gh-pages --dotfiles"
   },
   "dependencies": {
     "clsx": "^2.1.0",
